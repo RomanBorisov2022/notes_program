@@ -1,5 +1,6 @@
 import datetime
 
+
 class Note:
     def __init__(self, id, title, body):
         self.id = id
@@ -21,3 +22,4 @@ class Note:
             "created_time": str(self.created_time),
             "updated_time": str(self.updated_time)
         }
+    
